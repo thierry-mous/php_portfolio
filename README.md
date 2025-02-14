@@ -44,17 +44,17 @@ Ce projet est une application web développée en PHP & MySQL permettant aux uti
 ### Étapes d’Installation
 1. Cloner le projet sur votre serveur local :
    ```sh
-   git clone [https://github.com/thierry-mous/php_portfolio.git](https://github.com/thierry-mous/php_portfolio_Ortiz_Mousnier)
+   git clone https://github.com/thierry-mous/php_portfolio.git
    ```
 2. Importer la base de données :
-Le fichier SQL pour initialiser la base de données se trouve dans config/database.sql.
-Pour l'importer dans votre environnement local :
-Ouvrez PhpMyAdmin et connectez-vous à votre interface.
-Créez une nouvelle base de données (par exemple, nommez-la portfolio).
-Accédez à l'onglet "Importer" dans la base de données créée.
-Sélectionnez le fichier database.sql à l'aide du bouton "Choisir un fichier".
-Cliquez sur "Exécuter" pour importer les tables et les données.
-Assurez-vous que les informations de connexion à la base de données dans le fichier includes/config.php correspondent à votre configuration locale (hôte, nom d'utilisateur, mot de passe, nom de la base).
+- Le fichier SQL pour initialiser la base de données se trouve dans config/database.sql.
+- Pour l'importer dans votre environnement local :
+- Ouvrez PhpMyAdmin et connectez-vous à votre interface.
+- Créez une nouvelle base de données (par exemple, nommez-la portfolio).
+- Accédez à l'onglet "Importer" dans la base de données créée.
+- Sélectionnez le fichier database.sql à l'aide du bouton "Choisir un fichier".
+- Cliquez sur "Exécuter" pour importer les tables et les données.
+- Assurez-vous que les informations de connexion à la base de données dans le fichier includes/config.php correspondent à votre configuration locale (hôte, nom d'utilisateur, mot de passe, nom de la base).
 
 3. Configurer la connexion à la base de données :
    Modifier le fichier `config/database.php` :
