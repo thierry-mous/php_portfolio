@@ -44,7 +44,7 @@ Ce projet est une application web développée en PHP & MySQL permettant aux uti
 ### Étapes d’Installation
 1. Cloner le projet sur votre serveur local :
    ```sh
-   git clone https://github.com/thierry-mous/php_portfolio.git
+   git clone [https://github.com/thierry-mous/php_portfolio.git](https://github.com/thierry-mous/php_portfolio_Ortiz_Mousnier)
    ```
 2. Importer la base de données :
 Le fichier SQL pour initialiser la base de données se trouve dans config/database.sql.
