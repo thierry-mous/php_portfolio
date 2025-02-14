@@ -45,10 +45,16 @@ Ce projet est une application web développée en PHP & MySQL permettant aux uti
 1. Cloner le projet sur votre serveur local :
    ```sh
    git clone https://github.com/thierry-mous/php_portfolio.git
-   cd nom_projet_a_renseigner
    ```
 2. Importer la base de données :
-   - *à renseigner*
+Le fichier SQL pour initialiser la base de données se trouve dans config/database.sql.
+Pour l'importer dans votre environnement local :
+Ouvrez PhpMyAdmin et connectez-vous à votre interface.
+Créez une nouvelle base de données (par exemple, nommez-la portfolio).
+Accédez à l'onglet "Importer" dans la base de données créée.
+Sélectionnez le fichier database.sql à l'aide du bouton "Choisir un fichier".
+Cliquez sur "Exécuter" pour importer les tables et les données.
+Assurez-vous que les informations de connexion à la base de données dans le fichier includes/config.php correspondent à votre configuration locale (hôte, nom d'utilisateur, mot de passe, nom de la base).
 
 3. Configurer la connexion à la base de données :
    Modifier le fichier `config/database.php` :
@@ -75,7 +81,7 @@ Ce projet est une application web développée en PHP & MySQL permettant aux uti
 
 
 ### Compte Utilisateur
-- **Email** : 
+- **Email** : test2@test.com
 - **identifiant** : user2
 - **Mot de passe** : test
 
@@ -105,24 +111,32 @@ Ce projet est une application web développée en PHP & MySQL permettant aux uti
 └── README.md
 
 ```
-assets/          -> Pour le css
-/models/         -> Classes PHP (User, Auth, Project, Skill)
-/controllers/    -> Gestion des requêtes et logiques métier
-/views/          -> Interfaces utilisateur (HTML, CSS, Bootstrap)
-/public/         -> Images et assets du projet
-/database.sql    -> Script SQL pour initialiser la base de données
+assets/          -> Fichiers CSS et autres ressources front-end
+config/          -> Fichiers de configuration (base de données, variables globales, etc.)
+forms/           -> Gestion des formulaires (validation, traitement)
+functions/       -> Fonctions PHP utilitaires
+includes/        -> Fichiers inclus (headers, footers, etc.)
+public/          -> Fichiers accessibles publiquement (images, fichiers JS/CSS compilés)
+  ├── admin      -> Interfaces ou fichiers dédiés à l'administration
+templates/       -> Templates HTML pour les différentes pages
+uploads/         -> Fichiers uploadés par les utilisateurs
+  ├── profile_pictures/ -> Images de profil
+  └── projects/         -> Fichiers des projets
+README.md        -> Documentation du projet
+
 ```
 
 ## Technologies Utilisées
 - **Backend** : **php**
 - **Frontend** : **php html css**
 - **Sécurité** : **php**
-- **Gestion du Projet** : **trello**
+- **Gestion du Projet** : **Trello**
 
 ## Licence
 Ce projet est sous licence MIT.
 
 ## Contact
-Une question ou un bug ? Contactez-nous : nos email
+Une question ou un bug ? Contactez-nous :
+nos email
 Ortiz Morgane: morgane.ortiz@ynov.com
 Mousnier Thierry: thierry.mousnier@ynov.com
