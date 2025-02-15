@@ -2,37 +2,37 @@
 
 ## Présentation du Projet
 Ce projet est une application web développée en PHP & MySQL permettant aux utilisateurs de :
-- [ ] Gérer leur profil (inscription, connexion, mise à jour des informations).
-- [ ] Ajouter et modifier leurs compétences parmi celles définies par un administrateur.
-- [ ] Ajouter et gérer leurs projets (titre, description, image et lien).
-- [ ] Un administrateur peut gérer les compétences disponibles.
+- [x] Gérer leur profil (inscription, connexion, mise à jour des informations).
+- [x] Ajouter et modifier leurs compétences parmi celles définies par un administrateur.
+- [x] Ajouter et gérer leurs projets (titre, description, image et lien).
+- [x] Un administrateur peut gérer les compétences disponibles.
 
 ## Fonctionnalités Implémentées
 
 ### Authentification & Gestion des Comptes
-- [ ] Inscription avec validation des champs
-- [ ] Connexion sécurisée avec sessions et option "Se souvenir de moi"
-- [ ] Gestion des rôles (Admin / Utilisateur)
-- [ ] Mise à jour des informations utilisateur
-- [ ] Réinitialisation du mot de passe
-- [ ] Déconnexion sécurisée
+- [x] Inscription avec validation des champs
+- [x] Connexion sécurisée avec sessions et option "Se souvenir de moi"
+- [x] Gestion des rôles (Admin / Utilisateur)
+- [x] Mise à jour des informations utilisateur
+- [x] Réinitialisation du mot de passe
+- [x] Déconnexion sécurisée
 
 ### Gestion des Compétences
-- [ ] L’administrateur peut gérer les compétences proposées
-- [ ] Un utilisateur peut sélectionner ses compétences parmi celles disponibles
-- [ ] Niveau de compétence défini sur une échelle (débutant → expert)
+- [x] L’administrateur peut gérer les compétences proposées
+- [x] Un utilisateur peut sélectionner ses compétences parmi celles disponibles
+- [x] Niveau de compétence défini sur une échelle (débutant → expert)
 
 ### Gestion des Projets
-- [ ] Ajout, modification et suppression de projets
-- [ ] Chaque projet contient : Titre, Description, Image, Lien externe
-- [ ] Upload sécurisé des images avec restrictions de format et taille
-- [ ] Affichage structuré des projets
+- [x] Ajout, modification et suppression de projets
+- [x] Chaque projet contient : Titre, Description, Image, Lien externe
+- [x] Upload sécurisé des images avec restrictions de format et taille
+- [x] Affichage structuré des projets
 
 ### Sécurité
-- [ ] Protection contre XSS, CSRF et injections SQL
-- [ ] Hachage sécurisé des mots de passe
-- [ ] Gestion des erreurs utilisateur avec affichage des messages et conservation des champs remplis
-- [ ] Expiration automatique de la session après inactivité
+- [x] Protection contre XSS, CSRF et injections SQL
+- [x] Hachage sécurisé des mots de passe
+- [x] Gestion des erreurs utilisateur avec affichage des messages et conservation des champs remplis
+- [x] Expiration automatique de la session après inactivité
 
 ## Installation et Configuration
 
