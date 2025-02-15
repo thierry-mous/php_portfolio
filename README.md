@@ -86,7 +86,7 @@ Ce projet est une application web développée en PHP & MySQL permettant aux uti
 - **Mot de passe** : test
 
 ## Structure du Projet
-
+```
 /PHP_Portfolio/
 │
 ├── assets/
@@ -109,7 +109,7 @@ Ce projet est une application web développée en PHP & MySQL permettant aux uti
 │   └── projects/
 │
 └── README.md
-
+```
 ```
 assets/          -> Fichiers CSS et autres ressources front-end
 config/          -> Fichiers de configuration (base de données, variables globales, etc.)
